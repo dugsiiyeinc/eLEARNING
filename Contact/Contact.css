@@ -117,6 +117,121 @@ img {
     
 }
 
+/* Section 2 Content */
+
+.Contact-Us {
+    padding: 3rem 0.75rem;
+}
+
+.Contact-Us .Contact-Us-Content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: -1.5rem 0 -0.75rem -0.75rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Left{
+    margin-top: 1.5rem;
+    padding: 0 0.75rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Left h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #181d38;
+    margin-bottom: 0.5rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Left p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #52565b;
+    margin-bottom: 1.5rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Left p a {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #06bbcc;
+    text-decoration: none;
+}
+
+.Contact-Us .Contact-Us-Content  .Left .Box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Left .Box .Icon {
+    width: 50px;
+    height: 50px;
+    background-color: #06bbcc;
+}
+.Contact-Us .Contact-Us-Content  .Left .Box .Icon i {
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+
+.Contact-Us .Contact-Us-Content  .Left .Box .Content h5 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #06bbcc;
+    margin-bottom: 0.5rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Left .Box .Content p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #52565b;
+}
+
+.Contact-Us .Contact-Us-Content  .Center {
+    margin-top: 1.5rem;
+    padding: 0 0.75rem;
+}
+
+.Contact-Us .Contact-Us-Content  .Center iframe{
+    width: 100%;
+    border:0;
+}
+
+
+.Contact-Us .Contact-Us-Content  .Right{
+    margin-top: 1.5rem;
+    padding: 0 0.75rem;
+}
+
+
+.Contact-Us .Contact-Us-Content  .Right form input, .Contact-Us .Contact-Us-Content  .Right form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.8rem;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+ .Contact-Us .Contact-Us-Content  .Right form button {
+    background-color: #06bbcc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+ }
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     /* Section 1 */
