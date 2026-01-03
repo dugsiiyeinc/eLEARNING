@@ -239,12 +239,18 @@ img {
     font-size: 2.3125rem;
 }
 
-/* Section 2 */
+/* Section 2  Title*/
 .Contact-Us-Header h1 {
     font-size: 1.75rem;
 
 }
 
+/* Section 2 Content */ 
+
+.Contact-Us .Contact-Us-Content {
+    grid-template-columns: 1fr;
+    padding: 0 0.75rem;
+}
 
 
 }
