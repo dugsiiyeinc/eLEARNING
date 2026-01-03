@@ -119,9 +119,17 @@ img {
 
 
 @media (max-width: 768px) {
+    /* Section 1 */
     .Header .Header-Content h1 {
     font-size: 2.3125rem;
 }
 
+/* Section 2 */
+.Contact-Us-Header h1 {
+    font-size: 1.75rem;
+
 }
 
+
+
+}
