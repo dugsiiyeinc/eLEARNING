@@ -391,9 +391,11 @@ img {
     text-decoration: none;
     font-weight: 400;
     font-size: 0.9375rem;
-    border-right: 0.0625rem solid rgba(255, 255, 255, 0.1);
     margin-right: 0.9375rem;
     padding-right: 0.9375rem;
+}
+.Border {
+    border-right: 0.0625rem solid rgba(255, 255, 255, 0.1);
 }
 
 
@@ -424,5 +426,20 @@ img {
     }
     .Contact-Footer .Contact-Footer-Box .Newsletter-Input {
         width: 100%;
+    }
+    
+    /* Footer Copy Right */
+
+    .Copy-Right .Row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Copy-Right .Row .Left {
+        margin-bottom: 1rem;
+    }
+
+    .Mobile-Padding-Bottom{
+        padding-bottom: 0;
     }
 }
