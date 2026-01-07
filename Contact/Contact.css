@@ -229,7 +229,7 @@ img {
 
 .Contact-Footer {
     background-color: #181d38;
-    height: 90vh;
+    height: auto;
     margin-top: 3rem;
     padding: 3rem 0 0.75rem 0.75rem;
     color: #ffffff;
@@ -308,8 +308,14 @@ img {
     padding: 0.25rem;
 }
 
+.Contact-Footer .Contact-Footer-Box .Newsletter-P {
+    margin-bottom: 1rem;
+    color: #f0fbfc;
+}
+
 .Contact-Footer .Contact-Footer-Box .Newsletter-Input {
     display: flex;
+    justify-items: center;
     margin-top: 1rem;
     background-color: #fff;
     font-size: 1rem;
@@ -320,10 +326,6 @@ img {
 
 }
 
-.Contact-Footer .Contact-Footer-Box .Newsletter-P {
-    margin-bottom: 1rem;
-    color: #f0fbfc;
-}
 
 .Contact-Footer .Contact-Footer-Box .Newsletter-Input input {
     border: none;
@@ -370,5 +372,12 @@ img {
     .Contact-Us .Contact-Us-Content {
         grid-template-columns: 1fr;
         padding: 0 0.75rem;
+    }
+
+    .Contact-Footer .Contact-Footer-Boxes {
+        grid-template-columns: 1fr;
+    }
+    .Contact-Footer .Contact-Footer-Box .Newsletter-Input {
+        width: 100%;
     }
 }
