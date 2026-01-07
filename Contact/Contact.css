@@ -352,6 +352,51 @@ img {
 }
 
 
+/* Footer Copy Right */
+
+.Copy-Right {
+    border-top: 0.0625rem solid rgba(255, 255, 255, 0.1);
+    padding-block: 1.5625rem;
+    color: #f0fbfc;
+
+}
+
+.Copy-Right .Row {
+    margin: 0 -0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Copy-Right .Row .Left {
+    padding: 0 0.75rem;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    color: #f0fbfc;
+}
+
+.Copy-Right .Row .Left a {
+    color: #f0fbfc;
+    text-decoration: none;
+    border-bottom: 0.0625rem solid #fff;
+}
+
+.Copy-Right .Row .Right {
+    padding: 0 0.75rem;
+}
+
+.Copy-Right .Row .Right a {
+    color: #f0fbfc;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    border-right: 0.0625rem solid rgba(255, 255, 255, 0.1);
+    margin-right: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+
 
 /* Responsive */
 
