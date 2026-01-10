@@ -253,92 +253,7 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-        margin-right: 30px;
-    }
-
-    .menu {
-        position: absolute;
-        top: 54px;
-        left: 0;
-        width: 100%;
-        background: #fff;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px 20px;
-        display: none;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-
-    .menu.show {
-        display: flex;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
-        text-align: left;
-    }
-
-    .nav-links a {
-        width: 100%;
-        padding: 12px 0;
-        text-align: left;
-    }
-
-        /* MOBILE DROPDOWN */
-    .dropdown {
-        width: 100%;
-    }
-
-    .dropdown > a {
-        width: 100%;
-        text-align: left;
-    }
-
-    .dropdown-menu {
-        position: static;
-        box-shadow: none;
-        display: none;
-        width: 100%;
-    }
-
-    .dropdown-menu a {
-        text-align: left;
-        padding: 10px 0;
-    }
-
-    .dropdown.open .dropdown-menu {
-        display: block;
-    }
-
-        /* BUTTON */
-    .btn {
-        display: none;
-    }
-
-    /* Section 1 */
-    .Header {
-        margin-top: 3.4375rem;
-    }
-    .Header .Header-Content h1 {
-        font-size: 2.3125rem;
-    }
-    
-
-
-    /* Section 3 Footer */
+/* Section 3 Footer */
 
 .Contact-Footer {
     background-color: #181d38;
@@ -521,5 +436,114 @@ img {
     border-right: 0.0625rem solid rgba(255, 255, 255, 0.1);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+        display: none;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-links a {
+        width: 100%;
+        padding: 12px 0;
+        text-align: left;
+    }
+
+        /* MOBILE DROPDOWN */
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdown > a {
+        width: 100%;
+        text-align: left;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        display: none;
+        width: 100%;
+    }
+
+    .dropdown-menu a {
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    .dropdown.open .dropdown-menu {
+        display: block;
+    }
+
+        /* BUTTON */
+    .btn {
+        display: none;
+    }
+
+    /* Section 1 */
+    .Header {
+        margin-top: 3.4375rem;
+    }
+    .Header .Header-Content h1 {
+        font-size: 2.3125rem;
+    }
+    
+
+
+    .Contact-Footer .Contact-Footer-Boxes {
+        grid-template-columns: 1fr;
+    }
+    .Contact-Footer .Contact-Footer-Box .Newsletter-Input {
+        width: 100%;
+    }
+
+    /* Footer Copy Right */
+
+    .Copy-Right .Row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Copy-Right .Row .Left {
+        margin-bottom: 1rem;
+    }
+
+    .Mobile-Padding-Bottom{
+        padding-bottom: 0;
+    }
 
 }
