@@ -425,6 +425,26 @@ img {
     }
 
 
+     /* Section 2  Title*/
+    .Contact-Us-Header h1 {
+        font-size: 1.75rem;
+    }
+
+    .Team-Box {
+        min-width: 351px;
+        min-height: 440px;
+    }
+
+    .Team-Box-Flex {
+        min-width: 327px;
+    }
+
+    .Team-Box-Flex-Icons {
+        min-width: 327px;
+        min-height: 40px;
+    }
+
+
 
 }
 
