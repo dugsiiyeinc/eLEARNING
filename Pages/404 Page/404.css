@@ -198,6 +198,60 @@ img {
 }
 
 
+/* Section 3 "404" */
+.C404-Box {
+    margin: 0 -0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.C404-Box .C404-Box-Content {
+    width: 570px;
+    height: 402px;
+    padding: 0 0.75rem;
+}
+
+.C404-Box .C404-Box-Content i {
+    font-weight: 800;
+    font-size: 5rem;
+    color: #06bbcc;
+}
+
+.C404-Box .C404-Box-Content h1 {
+    font-weight: 800;
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.C404-Box .C404-Box-Content .C404-Box-Content-h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.C404-Box .C404-Box-Content p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #52565b;
+    margin-bottom: 1.5rem;
+}
+
+
+.C404-Box .C404-Box-Content a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 3rem;
+    background-color: #06bbcc;
+    border-radius: 50rem;
+    border: 0.0625rem solid #06bbcc;
+}
+
+
 
 
 
