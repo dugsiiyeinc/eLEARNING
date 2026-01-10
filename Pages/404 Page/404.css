@@ -274,7 +274,13 @@ img {
         display: none;
     }
 
-
+    /* Section 1 */
+    .Header {
+        margin-top: 3.4375rem;
+    }
+    .Header .Header-Content h1 {
+        font-size: 2.3125rem;
+    }
 
 
 }
