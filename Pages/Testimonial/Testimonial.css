@@ -404,6 +404,27 @@ img {
         font-size: 1.75rem;
     }
 
+    .Students {
+        flex-direction: column;
+        font-family: 'Heebo', sans-serif;
+        max-width: 327px;
+        max-height: 280px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .Students .Students-Boxes {
+        max-width: 327px;
+        max-height: 280px;
+        margin-right: 0;
+        margin-left: 0.5rem;
+    }
+
+
+    .Student-Mobile {
+        display: none;
+    }
+
 
 
 
