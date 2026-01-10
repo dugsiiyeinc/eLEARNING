@@ -151,6 +151,114 @@ img {
 }
 
 
+/* Section 1 */
+.Header {
+    margin-top: 4.375rem;
+    height: 50vh;
+    background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)),
+        url("https://themewagon.github.io/elearning/img/carousel-1.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0.75rem;
+    position: relative;
+}
+
+.Header .Header-Content {
+    text-align: center;
+    color: white;
+    padding-inline: 0.75rem;
+}
+
+.Header .Header-Content h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.Header .Header-Content nav ol {
+    margin-bottom: 1rem;
+}
+
+.Header .Header-Content nav li {
+    display: inline;
+    list-style: none;
+}
+
+.Header .Header-Content nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Section 2 */
+.Contact-Us-Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Us-Header .Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.Contact-Us-Header .Title .Lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.Contact-Us-Header .Title .Line1 {
+    width: 13.4375rem;
+    height: 0.125rem;
+    background-color: #06bbcc;
+}
+
+.Contact-Us-Header .Title .Line2 {
+    width: 15.9375rem;
+    height: 0.125rem;
+    background-color: #06bbcc;
+}
+
+.Contact-Us-Header .Title h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #06bbcc;
+    text-transform: uppercase;
+    position: absolute;
+    top: -0.3125rem;
+    background-color: #fff;
+    padding: 0 1rem;
+}
+
+.Contact-Us-Header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #181d38;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* RESPONSIVE */
@@ -221,3 +329,5 @@ img {
         display: none;
     }
 }
+
+
