@@ -611,6 +611,27 @@ img {
         display: none;
     }
 
+    .Contact-Footer .Contact-Footer-Boxes {
+        grid-template-columns: 1fr;
+    }
+    .Contact-Footer .Contact-Footer-Box .Newsletter-Input {
+        width: 100%;
+    }
+
+    /* Footer Copy Right */
+
+    .Copy-Right .Row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Copy-Right .Row .Left {
+        margin-bottom: 1rem;
+    }
+
+    .Mobile-Padding-Bottom{
+        padding-bottom: 0;
+    }
 
 
 
