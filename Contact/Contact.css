@@ -31,6 +31,7 @@ img {
     align-items: center;
     margin-bottom: 3rem;
     padding: 3rem 0.75rem;
+    position: relative;
 }
 
 .Header .Header-Content {
@@ -332,6 +333,7 @@ img {
     width: 243px;
     height: 56px;
     position: relative;
+    width: 100%;
 
 }
 
@@ -451,4 +453,7 @@ img {
     .Mobile-Padding-Bottom{
         padding-bottom: 0;
     }
+
+
 }
+
