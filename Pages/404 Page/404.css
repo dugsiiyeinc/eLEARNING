@@ -155,6 +155,51 @@ img {
 
 
 
+/* Section 1 */
+.Header {
+    margin-top: 4.375rem;
+    height: 50vh;
+    background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)),
+        url("https://themewagon.github.io/elearning/img/carousel-1.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0.75rem;
+    position: relative;
+}
+
+.Header .Header-Content {
+    text-align: center;
+    color: white;
+    padding-inline: 0.75rem;
+}
+
+.Header .Header-Content h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.Header .Header-Content nav ol {
+    margin-bottom: 1rem;
+}
+
+.Header .Header-Content nav li {
+    display: inline;
+    list-style: none;
+}
+
+.Header .Header-Content nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+
 
 
 
@@ -231,5 +276,5 @@ img {
 
 
 
-    
+
 }
