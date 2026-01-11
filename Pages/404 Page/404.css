@@ -253,6 +253,8 @@ img {
 
 
 
+
+
 /* Section 3 Footer */
 
 .Contact-Footer {
@@ -523,6 +525,31 @@ img {
     }
     
 
+    .C404-Box .C404-Box-Content i {
+        font-size: 2.6875rem;
+    }
+
+    .C404-Box .C404-Box-Content h1 {
+        font-size: 2.6875rem;
+    }
+
+    .C404-Box .C404-Box-Content .C404-Box-Content-h1 {
+        font-weight: 700;
+        font-size: 1.75rem;
+    }
+
+    .C404-Box .C404-Box-Content p {
+        font-size: 1rem;
+    }
+
+
+    .C404-Box .C404-Box-Content a {
+        font-size: 1rem;
+    }
+
+
+
+    /* section 3 */
 
     .Contact-Footer .Contact-Footer-Boxes {
         grid-template-columns: 1fr;
