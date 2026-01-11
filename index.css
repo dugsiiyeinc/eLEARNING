@@ -420,7 +420,7 @@
   }
 }
 
-/* RESPONSIVE */
+/* qaybta RESPONSIVE */
 @media (max-width: 900px) {
   .categories-grid {
     grid-template-columns: 1fr;
