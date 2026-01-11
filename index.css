@@ -288,7 +288,7 @@
   font-size: 14px;
 }
 
-/* RESPONSIVE */
+/* qaybta  RESPONSIVE  */
 @media (max-width: 900px) {
   .about {
     grid-template-columns: 1fr;
