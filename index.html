@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>eLearning</title>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
+
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="logo">e<span>LEARNING</span></div>
+  <section>
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <h2>
+            <i class="fa fa-book"></i>
+            eLEARNING
+          </h2>
+        </div>
 
-    <nav class="nav" id="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="courses.html">Courses</a>
-      <a href="pages.html">Pages</a>
-      <a href="contact.html">Contact</a>
+        <!-- Hamburger -->
+        <div class="menu-toggle" id="menuToggle">
+          ☰
+        </div>
 
-      <button class="btn join-btn">
-        Join Now <span class="arrow">→</span>
-      </button>
+        <!-- Menu -->
+        <div class="menu">
+          <div class="nav-links" id="navLinks">
+            <a href="../index.html">Home</a></li>
+            <a href="#">About</a></li>
+            <a href="#" class="active">Courses</a></li>
+
+            <!-- Dropdown -->
+            <div class="dropdown">
+              <a href="#" class="Pages">Pages ▾</a>
+              <div class="dropdown-menu">
+                <a href="../Pages/Our Team/Our Team.html">Our Team</a>
+                <a href="../Pages/Testimonial/Testimonial.html">Testimonial</a>
+                <a href="../Pages/404/404.html">404 Page</a>
+              </div>
+            </div>
+
+            <a href="../Contact/Contact.html">Contact</a>
+          </div>
+          <a href="#" class="btn">Join Now
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      </div>
     </nav>
+  </section>
 
-    <div class="menu-toggle" id="menuToggle">☰</div>
-  </header>
 
-  
+
+
   <!-- HERO -->
   <section class="hero">
     <div class="hero-content">
@@ -54,436 +84,523 @@
   </section>
 
 
-   <!-- SECTION TWO -->
-<section class="features-about">
+  <!-- SECTION TWO -->
+  <section class="features-about">
 
-  <!-- TOP CARDS -->
-  <div class="features">
-    <div class="feature-card">
-      <div class="icon">🎓</div>
-      <h3>Skilled Instructors</h3>
-      <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-    </div>
-
-    <div class="feature-card">
-      <div class="icon">🌐</div>
-      <h3>Online Classes</h3>
-      <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-    </div>
-
-    <div class="feature-card">
-      <div class="icon">🏠</div>
-      <h3>Home Projects</h3>
-      <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-    </div>
-
-    <div class="feature-card">
-      <div class="icon">📘</div>
-      <h3>Book Library</h3>
-      <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-    </div>
-  </div>
-
-  <!-- ABOUT -->
-  <div class="about">
-    <div class="about-img">
-      <img
-        src="https://images.unsplash.com/photo-1516979187457-637abb4f9353"
-        alt="about image"
-      />
-    </div>
-
-    <div class="about-content">
-      <h6>ABOUT US</h6>
-      <h2>Welcome to eLEARNING</h2>
-
-      <p>
-        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
-        amet diam et eos. Clita erat ipsum et lorem et sit.
-      </p>
-
-      <p>
-        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
-        amet diam et eos.
-      </p>
-
-      <div class="about-list">
-        <span>→ Skilled Instructors</span>
-        <span>→ Online Classes</span>
-        <span>→ International Certificate</span>
-        <span>→ Skilled Instructors</span>
-        <span>→ Online Classes</span>
-        <span>→ International Certificate</span>
+    <!-- TOP CARDS -->
+    <div class="features">
+      <div class="feature-card">
+        <i class="fa fa-3x fa-graduation-cap"></i>
+        <h3>Skilled Instructors</h3>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
       </div>
 
-      <a href="#" class="btn primary">Read More</a>
-    </div>
-  </div>
+      <div class="feature-card">
+        <i class="fa fa-3x fa-globe"></i>
+        <h3>Online Classes</h3>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
 
-</section>
+      <div class="feature-card">
+        <i class="fa fa-3x fa-home"></i>
+        <h3>Home Projects</h3>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+      </div>
 
-
-<!-- SECTION THREE : CATEGORIES -->
-<section class="categories-section">
-
-  <div class="section-title">
-    <h6>CATEGORIES</h6>
-    <h2>Courses Categories</h2>
-  </div>
-
-  <div class="categories-grid">
-
-    <div class="category-card big left">
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
-      <div class="category-info">
-        <h4>Web Design</h4>
-        <span>49 Courses</span>
+      <div class="feature-card">
+        <i class="fa fa-3x fa-book-open"></i>
+        <h3>Book Library</h3>
+        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
       </div>
     </div>
 
-    <div class="category-card tall right">
-      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="">
-      <div class="category-info">
-        <h4>Online Marketing</h4>
-        <span>49 Courses</span>
+    <!-- ABOUT -->
+    <div class="about">
+      <div class="about-img">
+        <img src="https://themewagon.github.io/elearning/img/about.jpg" alt="about image" />
       </div>
-    </div>
 
-    <div class="category-card bottom left">
-      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="">
-      <div class="category-info">
-        <h4>Graphic Design</h4>
-        <span>49 Courses</span>
-      </div>
-    </div>
-
-    <div class="category-card bottom right">
-      <img src="https://images.unsplash.com/photo-1537432376769-00a1f5b07b5c" alt="">
-      <div class="category-info">
-        <h4>Video Editing</h4>
-        <span>49 Courses</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-<!-- SECTION FOUR : POPULAR COURSES -->
-<section class="popular-courses">
-
-  <div class="section-title">
-    <h6>COURSES</h6>
-    <h2>Popular Courses</h2>
-  </div>
-
-  <div class="courses-grid">
-
-    <!-- CARD 1 -->
-    <div class="course-card">
-      <div class="course-img">
-        <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df" alt="">
-        <div class="course-buttons">
-          <a href="#">Read More</a>
-          <a href="#">Join Now</a>
+      <div class="about-content">        
+        <div class="About-Title">
+          <div class="Lines">
+          <div class="Line1"></div>
+          <div class="Line2"></div>
+          </div>
+          <div class="About-Title-Text"><h6>ABOUT US</h6></div>
         </div>
-      </div>
+        
+        <h1>Welcome to eLEARNING</h1>
 
-      <div class="course-body">
-        <h3>$149.00</h3>
-        <div class="stars">★★★★★ <span>(123)</span></div>
-        <h4>Web Design & Development Course for Beginners</h4>
-      </div>
-
-      <div class="course-footer">
-        <span>👤 John Doe</span>
-        <span>⏱ 1.49 Hrs</span>
-        <span>👥 30 Students</span>
-      </div>
-    </div>
-
-    <!-- CARD 2 -->
-    <div class="course-card">
-      <div class="course-img">
-        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-        <div class="course-buttons">
-          <a href="#">Read More</a>
-          <a href="#">Join Now</a>
-        </div>
-      </div>
-
-      <div class="course-body">
-        <h3>$149.00</h3>
-        <div class="stars">★★★★★ <span>(123)</span></div>
-        <h4>Web Design & Development Course for Beginners</h4>
-      </div>
-
-      <div class="course-footer">
-        <span>👤 John Doe</span>
-        <span>⏱ 1.49 Hrs</span>
-        <span>👥 30 Students</span>
-      </div>
-    </div>
-
-    <!-- CARD 3 -->
-    <div class="course-card">
-      <div class="course-img">
-        <img src="https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-        <div class="course-buttons">
-          <a href="#">Read More</a>
-          <a href="#">Join Now</a>
-        </div>
-      </div>
-
-      <div class="course-body">
-        <h3>$149.00</h3>
-        <div class="stars">★★★★★ <span>(123)</span></div>
-        <h4>Web Design & Development Course for Beginners</h4>
-      </div>
-
-      <div class="course-footer">
-        <span>👤 John Doe</span>
-        <span>⏱ 1.49 Hrs</span>
-        <span>👥 30 Students</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- SECTION FIVE : INSTRUCTORS -->
-<!-- SECTION FIVE : INSTRUCTORS -->
-<section class="instructors">
-
-  <div class="section-title">
-    <h6>INSTRUCTORS</h6>
-    <h2>Expert Instructors</h2>
-  </div>
-
-  <div class="instructors-grid">
-
-    <!-- Instructor 1 -->
-    <div class="instructor-card">
-      <div class="instructor-img">
-        <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12" alt="">
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-      <div class="instructor-info">
-        <h4>Instructor Name</h4>
-        <p>Designation</p>
-      </div>
-    </div>
-
-    <!-- Instructor 2 -->
-    <div class="instructor-card">
-      <div class="instructor-img">
-        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="">
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-      <div class="instructor-info">
-        <h4>Instructor Name</h4>
-        <p>Designation</p>
-      </div>
-    </div>
-
-    <!-- Instructor 3 -->
-    <div class="instructor-card">
-      <div class="instructor-img">
-        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d" alt="">
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-      <div class="instructor-info">
-        <h4>Instructor Name</h4>
-        <p>Designation</p>
-      </div>
-    </div>
-
-    <!-- Instructor 4 -->
-    <div class="instructor-card">
-      <div class="instructor-img">
-        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="">
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-      <div class="instructor-info">
-        <h4>Instructor Name</h4>
-        <p>Designation</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-<!-- //section6 -->
-<section class="testimonial">
-  <div class="container">
-
-    <div class="section-title">
-      <span>TESTIMONIAL</span>
-      <h2>Our Students Say!</h2>
-    </div>
-
-    <div class="testimonial-grid">
-
-      <!-- Card 1 -->
-      <div class="testimonial-card">
-        <div class="client-img">
-          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="">
-        </div>
-        <h4>Client Name</h4>
-        <p class="profession">Profession</p>
-
-        <div class="testimonial-text">
-          <p>
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-            Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-      </div>
-
-      <!-- Card 2 (Active) -->
-      <div class="testimonial-card active">
-        <div class="client-img">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="">
-        </div>
-        <h4>Client Name</h4>
-        <p class="profession">Profession</p>
-
-        <div class="testimonial-text highlight">
-          <p>
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-            Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="testimonial-card">
-        <div class="client-img">
-          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d" alt="">
-        </div>
-        <h4>Client Name</h4>
-        <p class="profession">Profession</p>
-
-        <div class="testimonial-text">
-          <p>
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos.
-            Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Dots -->
-    <div class="testimonial-dots">
-      <span class="active"></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- // footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-
-      <!-- Quick Links -->
-      <div class="footer-col">
-        <h4>Quick Link</h4>
-        <ul class="footer-links">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Condition</a></li>
-          <li><a href="#">FAQs & Help</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact -->
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <p>📍 123 Street, New York, USA</p>
-        <p>📞 +012 345 67890</p>
-        <p>✉ info@example.com</p>
-
-        <div class="footer-social">
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
-        </div>
-      </div>
-
-      <!-- Gallery -->
-      <div class="footer-col">
-        <h4>Gallery</h4>
-        <div class="footer-gallery">
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
-          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2" alt="">
-          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="">
-          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0" alt="">
-          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
-        </div>
-      </div>
-
-      <!-- Newsletter -->
-      <div class="footer-col">
-        <h4>Newsletter</h4>
         <p>
-          Dolor amet sit justo amet elitr clita ipsum elitr est.
+          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.
         </p>
 
-        <form class="newsletter">
-          <input type="email" placeholder="Your email">
-          <button type="submit">SignUp</button>
-        </form>
-      </div>
+        <p>
+          Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+        </p>
 
-    </div>
+        <div class="about-list">
+          <p><i class="fa fa-arrow-right"></i> Skilled Instructors</p>
+          <p><i class="fa fa-arrow-right"></i> Online Classes</p>
+          <p><i class="fa fa-arrow-right"></i> International Certificate</p>
+          <p><i class="fa fa-arrow-right"></i> Skilled Instructors</p>
+          <p><i class="fa fa-arrow-right"></i> Online Classes</p>
+          <p><i class="fa fa-arrow-right"></i> International Certificate</p>
+        </div>
 
-    <!-- Bottom -->
-    <div class="footer-bottom">
-      <p>
-        © Your Site Name, All Right Reserved. Designed By HTML Codex
-      </p>
-      <div class="footer-bottom-links">
-        <a href="#">Home</a>
-        <a href="#">Cookies</a>
-        <a href="#">Help</a>
-        <a href="#">FAQs</a>
+        <a href="#" class="btn primary">Read More</a>
       </div>
     </div>
 
-  </div>
-</footer>
+  </section>
+
+
+  <!-- SECTION THREE : CATEGORIES -->
+  <section class="categories-section">
+
+    <div class="Contact-Us">
+      <div class="Container">
+        <div class="Contact-Us-Header">
+          <div class="Title">
+            <div class="Lines">
+              <div class="Line1"></div>
+              <div class="Line2"></div>
+            </div>
+            <h6>Categories</h6>
+          </div>
+          <h1>Courses Categories</h1>
+        </div>
+
+        <div class="categories-grid">
+
+          <div class="category-card big left">
+            <img src="https://themewagon.github.io/elearning/img/cat-1.jpg" alt="">
+            <div class="category-info">
+              <h4>Web Design</h4>
+              <span>49 Courses</span>
+            </div>
+          </div>
+
+          <div class="category-card tall right">
+            <img src="	https://themewagon.github.io/elearning/img/cat-4.jpg" alt="">
+            <div class="category-info">
+              <h4>Online Marketing</h4>
+              <span>49 Courses</span>
+            </div>
+          </div>
+
+          <div class="category-card bottom left">
+            <img src="https://themewagon.github.io/elearning/img/cat-2.jpg" alt="">
+            <div class="category-info">
+              <h4>Graphic Design</h4>
+              <span>49 Courses</span>
+            </div>
+          </div>
+
+          <div class="category-card bottom right">
+            <img src="https://themewagon.github.io/elearning/img/cat-3.jpg" alt="">
+            <div class="category-info">
+              <h4>Video Editing</h4>
+              <span>49 Courses</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- SECTION FOUR : POPULAR COURSES -->
+  <section>
+    <div class="Contact-Us">
+      <div class="Container">
+        <div class="Contact-Us-Header">
+          <div class="Title">
+            <div class="Lines">
+              <div class="Line1"></div>
+              <div class="Line2"></div>
+            </div>
+            <h6>Courses</h6>
+          </div>
+          <h1>Popular Courses</h1>
+        </div>
+
+
+        <div class="courses-grid">
+
+          <!-- CARD 1 -->
+          <div class="course-card">
+            <div class="course-img">
+              <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df" alt="">
+              <div class="course-buttons">
+                <a href="#" style="border-radius: 30px 0 0 30px; border-right-color: #fff;">Read More</a>
+                <a href="#" style="border-radius: 0 30px 30px 0; border-left-color: #fff;">Join Now</a>
+              </div>
+            </div>
+
+            <div class="course-body">
+              <h3>$149.00</h3>
+              <div class="stars">
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <span>(123)</span>
+              </div>
+              <h4>Web Design & Development Course for Beginners</h4>
+            </div>
+
+            <div class="course-footer">
+              <span><i class="fa fa-user-tie" style="margin-right: 8px; color: #00bcd4;"></i> John Doe</span>
+              <span><i class="fa fa-clock" style="margin-right: 8px; color: #00bcd4;"></i> 1.49 Hrs</span>
+              <span><i class="fa fa-user" style="margin-right: 8px; color: #00bcd4;"></i> 30 Students</span>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="course-card">
+            <div class="course-img">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+              <div class="course-buttons">
+                <a href="#" style="border-radius: 30px 0 0 30px; border-right-color: #fff;">Read More</a>
+                <a href="#" style="border-radius: 0 30px 30px 0; border-left-color: #fff;">Join Now</a>
+              </div>
+            </div>
+
+            <div class="course-body">
+              <h3>$149.00</h3>
+              <div class="stars">
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <span>(123)</span>
+              </div>
+              <h4>Web Design & Development Course for Beginners</h4>
+            </div>
+
+            <div class="course-footer">
+              <span><i class="fa fa-user-tie" style="margin-right: 8px; color: #00bcd4;"></i> John Doe</span>
+              <span><i class="fa fa-clock" style="margin-right: 8px; color: #00bcd4;"></i> 1.49 Hrs</span>
+              <span><i class="fa fa-user" style="margin-right: 8px; color: #00bcd4;"></i> 30 Students</span>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="course-card">
+            <div class="course-img">
+              <img
+                src="https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+              <div class="course-buttons">
+                <a href="#" style="border-radius: 30px 0 0 30px; border-right-color: #fff;">Read More</a>
+                <a href="#" style="border-radius: 0 30px 30px 0; border-left-color: #fff;">Join Now</a>
+              </div>
+            </div>
+
+            <div class="course-body">
+              <h3>$149.00</h3>
+              <div class="stars">
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small>
+                <small class="fa fa-star"></small> <span>(123)</span>
+              </div>
+              <h4>Web Design & Development Course for Beginners</h4>
+            </div>
+
+            <div class="course-footer">
+              <span><i class="fa fa-user-tie" style="margin-right: 8px; color: #00bcd4;"></i> John Doe</span>
+              <span><i class="fa fa-clock" style="margin-right: 8px; color: #00bcd4;"></i> 1.49 Hrs</span>
+              <span><i class="fa fa-user" style="margin-right: 8px; color: #00bcd4;"></i> 30 Students</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION FIVE : INSTRUCTORS -->
+  <!-- SECTION FIVE : INSTRUCTORS -->
+  <section class="instructors">
+
+    <div class="Contact-Us">
+      <div class="Container">
+        <div class="Contact-Us-Header">
+          <div class="Title">
+            <div class="Lines">
+              <div class="Line1"></div>
+              <div class="Line2"></div>
+            </div>
+            <h6>INSTRUCTORS</h6>
+          </div>
+          <h1>Expert Instructors</h1>
+        </div>
+
+
+        <div class="instructors-grid">
+
+          <!-- Instructor 1 -->
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12" alt="">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Instructor Name</h4>
+              <p>Designation</p>
+            </div>
+          </div>
+
+          <!-- Instructor 2 -->
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Instructor Name</h4>
+              <p>Designation</p>
+            </div>
+          </div>
+
+          <!-- Instructor 3 -->
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d" alt="">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Instructor Name</h4>
+              <p>Designation</p>
+            </div>
+          </div>
+
+          <!-- Instructor 4 -->
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="">
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Instructor Name</h4>
+              <p>Designation</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- //section6 -->
+  <section>
+      <div class="Contact-Us">
+        <div class="Container">
+          <div class="Contact-Us-Header">
+            <div class="Title">
+              <div class="Lines">
+                <div class="Line1"></div>
+                <div class="Line2"></div>
+              </div>
+              <h6>Testimonial</h6>
+            </div>
+            <h1>Our Students Say!</h1>
+          </div>
+
+          <div class="Students">
+            <div class="Students-Boxes Student-Mobile">
+                <div class="Student-Box">
+                    <img src="	https://themewagon.github.io/elearning/img/testimonial-1.jpg" alt="Student 3">
+                    <h5>Client Name</h5>
+                    <p>Profession</p>
+                    <div class="Student-Box-Text">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Students-Boxes">
+                <div class="Student-Box">
+                    <img src="	https://themewagon.github.io/elearning/img/testimonial-2.jpg" alt="Student 3">
+                    <h5>Client Name</h5>
+                    <p>Profession</p>
+                    <div class="Student-Box-Text Centered">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Students-Boxes Student-Mobile">
+                <div class="Student-Box">
+                    <img src="	https://themewagon.github.io/elearning/img/testimonial-3.jpg" alt="Student 3">
+                    <h5>Client Name</h5>
+                    <p>Profession</p>
+                    <div class="Student-Box-Text">
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+
+
+          </div>
+          <!-- Dots -->
+        <div class="testimonial-dots">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  <!-- // footer -->
+  <section>
+      <div class="Contact-Footer">
+        <div class="Container">
+          <div class="Contact-Footer-Boxes">
+            <div class="Contact-Footer-Box">
+              <h4>Quick Link</h4>
+              <a href="#"><span>></span> About Us</a>
+              <a href="#"><span>></span> Conact Us</a>
+              <a href="#"><span>></span> Privacy Policy</a>
+              <a href="#"><span>></span> Terms & Conditions</a>
+              <a href="#"><span>></span> FAQs & Help</a>
+            </div>
+            <div class="Contact-Footer-Box">
+              <h4>Contact</h4>
+              <p>
+                <i class="fa fa-map-marker-alt"></i>
+                123 Street, New York, USA
+              </p>
+              <p>
+                <i class="fa fa-phone-alt"></i>
+                +012 345 67890
+              </p>
+              <p>
+                <i class="fa fa-envelope"></i>
+                info@example.com
+              </p>
+              <div class="Icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="Contact-Footer-Box">
+              <h4>Gallery</h4>
+              <div class="Social-Media-Box-Images">
+                <div class="Social-Media-Box-Image">
+                  <img
+                    src="https://themewagon.github.io/elearning/img/course-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="Social-Media-Box-Image">
+                  <img
+                    src="	https://themewagon.github.io/elearning/img/course-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="Social-Media-Box-Image">
+                  <img
+                    src="https://themewagon.github.io/elearning/img/course-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="Social-Media-Box-Image">
+                  <img
+                    src="https://themewagon.github.io/elearning/img/course-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="Social-Media-Box-Image">
+                  <img
+                    src="https://themewagon.github.io/elearning/img/course-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="Social-Media-Box-Image">
+                  <img
+                    src="https://themewagon.github.io/elearning/img/course-1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="Contact-Footer-Box">
+              <h4>Newsletter</h4>
+              <p class="Newsletter-P">
+                Dolor amet sit justo amet elitr clita ipsum elitr est.
+              </p>
+              <div class="Newsletter-Input">
+                <input type="email" placeholder="Your email" />
+                <button type="submit">SingUp</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="Container Mobile-Padding-Bottom">
+            <div class="Copy-Right">
+                <div class="Row">
+                    <div class="Left">
+                        &copy; 
+                        <a href="#">Your Site Name</a>
+                        , All Right Reserved.
+                        Designed By 
+                        <a href="https://htmlcodex.com">HTML Codex</a>
+                        <br>
+                        <br>
+                        Distributed By 
+                        <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                    <div class="Right">
+                        <div class="Footer-Menu">
+                            <a href="#" class="Border">Home</a>
+                            <a href="#" class="Border">Cookies</a>
+                            <a href="#" class="Border">Help</a>
+                            <a href="#">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
 
   <script src="main.js"></script>
 </body>
+
 </html>
