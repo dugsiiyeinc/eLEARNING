@@ -21,3 +21,14 @@ img {
     margin: auto;
     padding: 3rem 0.75rem;
 }
+
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: Fixed;
+    top: 0;
+    z-index: 1000;
+}
