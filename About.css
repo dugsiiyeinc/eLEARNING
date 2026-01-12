@@ -149,3 +149,11 @@ img {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+
+/* HAMBURGER */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
