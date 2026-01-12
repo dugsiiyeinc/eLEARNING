@@ -593,23 +593,29 @@ img {
     .Students {
         flex-direction: column;
         font-family: 'Heebo', sans-serif;
-        max-width: 327px;
-        max-height: 280px;
+        gap: 2rem;
+        /* max-width: 327px; */
+        /* max-height: 280px; */
         /* align-items: center; */
         /* justify-content: center; */
     }
 
-    .Students .Students-Boxes {
+    .Students .Students-Boxes { 
         max-width: 327px;
         max-height: 280px;
+        margin-bottom: 2rem;
         margin-right: 0;
         margin-left: 0.5rem;
-    }
+    } 
 
 
-    .Student-Mobile {
+    /* .Student-Mobile {
         display: none;
-    }
+    } */
+
+
+
+    /* Section 3 Footer */
 
     .Contact-Footer .Contact-Footer-Boxes {
         grid-template-columns: 1fr;
