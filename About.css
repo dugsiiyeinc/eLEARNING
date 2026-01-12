@@ -40,3 +40,20 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+
+
+
+/* LOGO */
+.logo {
+  padding: 5px 48px;
+}
+.logo h2 {
+  color: #06bbcc;
+  font-weight: 700;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.logo h2 i {
+  margin-right: 1rem;
+}
