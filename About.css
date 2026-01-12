@@ -87,3 +87,22 @@ img {
 .nav-links a.active {
   color: #06bbcc;
 }
+
+
+/* BUTTON */
+.btn {
+  background: #06bbcc;
+  color: #fff;
+  text-decoration: none;
+  padding: 24px 48px;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #06bbcc;
+}
