@@ -106,3 +106,46 @@ img {
 .btn:hover {
   background: #06bbcc;
 }
+
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown > a {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: #fff;
+  min-width: 170px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  display: none;
+  flex-direction: column;
+  z-index: 99;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  padding: 10px 15px;
+  color: #333;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background: #f1f5ff;
+  color: #06bbcc;
+}
+
+/* SHOW DROPDOWN ON DESKTOP */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
