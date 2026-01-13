@@ -78,18 +78,13 @@ body {
   cursor: pointer;
 }
 
-/*DROPDOWN (DESKTOP ONLY)*/
+/* DROPDOWN – DESKTOP ONLY */
 
 .dropdown {
   position: relative;
 }
 
-/* link Pages */
-.dropdown > a {
-  cursor: pointer;
-}
-
-/* opecity 0*/
+/* dropdown  */
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -107,13 +102,12 @@ body {
   z-index: 999;
 }
 
-/* dropdown */
+/* links */
 .dropdown-menu a {
   display: block;
   padding: 10px 18px;
   color: #333;
   text-decoration: none;
-  font-size: 15px;
 }
 
 .dropdown-menu a:hover {
@@ -121,25 +115,23 @@ body {
   color: #00bcd4;
 }
 
+/* DESKTOP click*/
 
-
-/*  click */
-.dropdown:focus-within .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+@media (min-width: 992px) {
+  .dropdown:focus-within .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 }
 
-
+/* 
+   MOBILE & TABLET
+ */
 
 @media (max-width: 991px) {
   .dropdown-menu {
-    position: static;
-    box-shadow: none;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-    display: block;
+    display: none ;
   }
 }
 
@@ -287,6 +279,20 @@ body {
 .instructors {
   padding: 80px 60px;
   background: #fff;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title h6 {
+  letter-spacing: 2px;
+  color: #00bcd4;
+}
+
+.section-title h2 {
+  margin-top: 10px;
 }
 
 /* GRID */
