@@ -79,8 +79,6 @@ body {
 }
 
 
-  
-
 /* Tablet & Mobile */
 @media (max-width: 991px) {
 
@@ -122,6 +120,7 @@ body {
 .features-about {
   padding: 80px 60px;
   background: #fff;
+  margin-top: 40px;
 }
 
 /* TOP CARDS */
